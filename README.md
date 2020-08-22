@@ -15,5 +15,5 @@ In this projec I make use of
 We're using our Pi as gateway to the TTN so we can integrate with cayenne.
 
 First let's start with enabeling spi on youre Pi. type in youre CLI: "sudo raspi-config" select the 5th option interfacing options.
-![alt text](https://github.com/kiwiton/poolhouse/tree/readmeEdits/pics/InterfOptionsSelect.png?raw=true)
+![alt text](https://github.com/kiwiton/poolhouse/blob/readmeEdits/pics/InterfOptionsSelect.png)
 
