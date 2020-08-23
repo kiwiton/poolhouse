@@ -27,5 +27,7 @@ In the CLI enter "sudo apt-get install wiringpi"
 
 Now downloadind the single channel paket forwarder by entering the following in the CLI:
 "Sudo https://github.com/tftelkamp/single_chan_pkt_fwd/archive/master.zip"
+This will download a ".zip3 file, we're going to unzip it by typing "unzip master.zip" in the CLI.
+
 
 
