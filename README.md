@@ -6,8 +6,9 @@ In this projec I make use of
 	a rasberryPi4 with a lora/gps hat,
 	dht11 sensor,
 	ldr,
-	some LED's,
+	some LED's and resistors, 
 	a ventilator,
+	a MOSfet IRF510, 
 	and a button,
 
 # 	rasberryPi
@@ -29,6 +30,27 @@ Now downloadind the single channel paket forwarder by entering the following in 
 "Sudo https://github.com/tftelkamp/single_chan_pkt_fwd/archive/master.zip"
 
 This will download a ".zip3 file, we're going to unzip it by typing "unzip master.zip" in the CLI.
+![alt text](https://github.com/kiwiton/poolhouse/blob/readmeEdits/pics/unzipMaster.png)
+
+After that you need to change the verver address in the main.cpp file. first let's go there 
+![alt text](https://github.com/kiwiton/poolhouse/blob/readmeEdits/pics/cdToDir.png)
+
+Enter: "sudo nano main.cpp" in the command line to enter this file and change the server address to the according servername of your continent.
+
+Afterwards we make this file to compile it.
+![alt text](https://github.com/kiwiton/poolhouse/blob/readmeEdits/pics/make.png)
+
+And run it![alt text](https://github.com/kiwiton/poolhouse/blob/readmeEdits/pics/runtTheForwarder.png)
+
+in my case the gateway address signed to me was: dc a6 32 ff ff 60 5b 49 .
+now its time to make a TTN acount and go to gateways
+
+
+
+
+
+
+
 
 
 
