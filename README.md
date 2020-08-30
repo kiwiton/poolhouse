@@ -59,7 +59,7 @@ The router should be picked for you automaticly. Press the green Register gatewa
 
 # making the breadboard
 
-https://github.com/kiwiton/poolhouse/blob/readmeEdits/pics/breadboardSchemaPoolhouse.png
+![alt text](https://github.com/kiwiton/poolhouse/blob/readmeEdits/pics/breadboardSchemaPoolhouse.png)
 Next up you should connect all the components like in the picture above. There are a few caviats to it though.
 First up I used an DHT11 instead of an RHT11 but my program to draw the schematics didn't allow for the DHT11 model to be used.
 also you notice that the motor is connected to a random breadboard pin. Because the ventilator I have works On 12V but I don't have a 12V DC source so far for that.
