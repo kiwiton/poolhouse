@@ -1,5 +1,7 @@
 # poolhouse
 messuring things and viualising them via lorawan technology making use of the TTN (The Things Network) and cayenne
+# note 
+see full project on https://github.com/kiwiton/poolhouse/tree/readmeEdits
 # components
 In this projec I make use of 
 -	an arduino uno with an lora shield,
